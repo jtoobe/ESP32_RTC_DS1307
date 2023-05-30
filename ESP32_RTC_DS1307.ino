@@ -6,6 +6,8 @@
  * Alimentacion: 5v
  * SCL => D22
  * SDA => D21
+ *
+ * El modulo usado viene con una pequeña EEPROM que puede ser usada para guardar valores que deben ser persistentes
  */
 
 RTCDS1307 rtc(0x68); // Crear una instancia del objeto RTCDS1307 con la dirección I2C 0x68
